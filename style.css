@@ -1,0 +1,70 @@
+p, header, ul {
+    font-family:  Poppins, sans-serif;
+}
+  
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 30%;
+    border-right: 1px solid black;
+}
+  
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top: 1px solid black;
+}
+  
+nav header {
+    padding: 10px 20px 0;
+    font-size: 24px;
+}
+  
+nav ul li {
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+  }
+  
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+  
+main {
+    width: 68%;
+    float: right;
+    padding: 1%;
+}
+  
+.main-section {
+    padding: 20px;
+}
+  
+.main-section header {
+    font-size: 20px;
+}
+  
+@media (max-width: 730px) {
+    
+    nav {
+      position: static;
+      width: 100%;
+      text-align: center;
+    }
+    
+    nav ul {
+      background-color: #ebebeb;
+    }
+    
+    main {
+      width: 98%;
+      float: right;
+      padding: 1%;
+    }
+    
+}
